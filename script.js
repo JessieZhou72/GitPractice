@@ -8,15 +8,41 @@ function initEventListener() {
 }
 
 function initTopNavBar() {
+    const body = document.getElementsByTagName('body')[0];
+    const topNavBar = document.createElement('div');
+
+    // TODO: add child elements to topnav
+
+    // TODO: append topnav to body
 }
 
 function initSideBar() {
+    const body = document.getElementsByTagName('body')[0];
+    const sideBar = document.createElement('div');
+
+    // TODO: add child elements to sidebar
+    
+    // TODO: append sidebar to body
 }
 
 function initMainSection() {
+    const body = document.getElementsByTagName('body')[0];
+    const mainSection = document.createElement('div');
+
+    // TODO: add child elements to main section
+
+    // TODO: append main section to body
+
 }
 
 function initFooter() {
+    const body = document.getElementsByTagName('body')[0];
+    const footer = document.createElement('div');
+
+    // TODO: add child elements to footer
+
+    // TODO: append footer to body
+
 }
 
 function initWindowDisplay() {
@@ -24,11 +50,4 @@ function initWindowDisplay() {
   initSideBar();
   initMainSection();
   initFooter();
-   const body = document.getElementsByTagName('body')[0];
-   // TODO: create and append div elements to body
-   const elements = ['div', 'div', 'div'];
-    elements.forEach(element => {
-        const div = document.createElement(element);
-        body.appendChild(div);
-    })
 }
