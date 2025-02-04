@@ -7,7 +7,23 @@ function initEventListener() {
     })
 }
 
+function initTopNavBar() {
+}
+
+function initSideBar() {
+}
+
+function initMainSection() {
+}
+
+function initFooter() {
+}
+
 function initWindowDisplay() {
+  initTopNavBar();
+  initSideBar();
+  initMainSection();
+  initFooter();
    const body = document.getElementsByTagName('body')[0];
    // TODO: create and append div elements to body
    const elements = ['div', 'div', 'div'];
