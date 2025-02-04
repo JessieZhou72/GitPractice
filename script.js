@@ -10,4 +10,9 @@ function initEventListener() {
 function initWindowDisplay() {
    const body = document.getElementsByTagName('body')[0];
    // TODO: create and append div elements to body
+   const elements = ['div', 'div', 'div'];
+    elements.forEach(element => {
+        const div = document.createElement(element);
+        body.appendChild(div);
+    })
 }
