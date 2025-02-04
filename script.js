@@ -1,0 +1,5 @@
+function initEventListener() {
+}
+
+function initWindowDisplay() {
+}
