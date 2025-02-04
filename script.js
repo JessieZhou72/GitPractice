@@ -8,5 +8,6 @@ function initEventListener() {
 }
 
 function initWindowDisplay() {
-   
+   const body = document.getElementsByTagName('body')[0];
+   // TODO: create and append div elements to body
 }
